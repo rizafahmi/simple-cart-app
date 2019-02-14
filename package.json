@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint src/*.js",
+    "lint:fix": "eslint src/*.js --fix"
   },
   "keywords": [],
   "author": "Riza Fahmi <rizafahmi@gmail.com> (https://rizafahmi.com)",
@@ -13,5 +15,8 @@
   "dependencies": {
     "jest": "23.6.0",
     "parcel-bundler": "1.11.0"
+  },
+  "devDependencies": {
+    "eslint": "5.13.0"
   }
 }
