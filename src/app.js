@@ -5,11 +5,7 @@ const {
 } = require("./helpers.js");
 
 const incrButton = document.querySelector("#incr");
-const decrButton = 
-  document.querySelector("#decr");
-
-
-
+const decrButton = document.querySelector("#decr");
 
 const qtyInput = document.querySelector("#qty");
 const priceInput = document.querySelector("#price");
@@ -19,9 +15,6 @@ const confirmCodeButton = document.querySelector("#confirmCode");
 let discount = 0;
 
 incrButton.addEventListener("click", () => {
-
-
-
   qtyInput.value = incrementQty(qtyInput.value);
   subtotalText.textContent = `Rp. ${recalculateSubtotal(
     priceInput.value,

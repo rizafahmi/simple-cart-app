@@ -7,7 +7,8 @@
     "start": "parcel index.html",
     "test": "jest",
     "lint": "eslint src/*.js",
-    "lint:fix": "eslint src/*.js --fix"
+    "lint:fix": "eslint src/*.js --fix",
+    "format": "prettier src/*.js --write"
   },
   "keywords": [],
   "author": "Riza Fahmi <rizafahmi@gmail.com> (https://rizafahmi.com)",
@@ -17,6 +18,7 @@
     "parcel-bundler": "1.11.0"
   },
   "devDependencies": {
-    "eslint": "5.13.0"
+    "eslint": "5.13.0",
+    "prettier": "1.16.4"
   }
 }
